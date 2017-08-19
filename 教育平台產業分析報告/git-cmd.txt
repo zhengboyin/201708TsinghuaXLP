@@ -1,0 +1,25 @@
+fork the quiz  and copy the https url
+
+先cd到你想存的資料夾
+git clone url(複製下來的網址)
+
+以下是上傳的時候用到:
+先cd到要上傳的資料夾
+git add -A
+git commit -m "Finish lab ?"
+git push -u origin master
+
+先點自己fork的project，按merge request，左邊選master，右邊選自己的學號，set title 看下面一行。
+
+merge request title要改成std103060003 submission。
+Lab時間過後繳交的話，則是std103060003 late submission。
+
+git pull同步
+
+git config --global user.email “s104061133@gmail.com” 改email 去global就是改local
+  git config --global user.name “s104061133”
+
+在本地创建新的分支 git branch newbranch
+切换到新的分支 git checkout newbranch
+将新的分支推送到github git push origin newbranch
+在本地删除一个分支： git branch -d newbranch
